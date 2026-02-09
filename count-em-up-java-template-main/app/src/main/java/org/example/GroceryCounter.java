@@ -45,6 +45,7 @@ public class GroceryCounter {
         for (int i : counter) {
             i = 0;
         }
+        overflow = 0;
         System.out.println("Counter cleared.");
     }
 
@@ -62,3 +63,4 @@ public class GroceryCounter {
     }
 
 }
+
